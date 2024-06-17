@@ -1,4 +1,4 @@
-namespace MasstransitKafkaTester;
+namespace MtKafkaIssueProducer;
 
 public class ServiceSettings
 {

@@ -1,8 +1,7 @@
-using Confluent.Kafka;
 using MassTransit;
 using Microsoft.Extensions.Options;
 
-namespace MasstransitKafkaTester;
+namespace MtKafkaIssueProducer;
 
 public class PingProducerService
 {

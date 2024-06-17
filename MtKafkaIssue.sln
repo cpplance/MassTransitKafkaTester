@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtKafkaIssueConsumer", "MtKafkaIssueConsumer\MtKafkaIssueConsumer.csproj", "{2FD01867-D0EA-4DDC-ACE3-3BD80DF1FDA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtKafkaIssueProducer", "MtKafkaIssueProducer\MtKafkaIssueProducer.csproj", "{2E26F5EF-1BEE-4567-818C-DAC9F85535A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FD01867-D0EA-4DDC-ACE3-3BD80DF1FDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD01867-D0EA-4DDC-ACE3-3BD80DF1FDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD01867-D0EA-4DDC-ACE3-3BD80DF1FDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD01867-D0EA-4DDC-ACE3-3BD80DF1FDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E26F5EF-1BEE-4567-818C-DAC9F85535A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E26F5EF-1BEE-4567-818C-DAC9F85535A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E26F5EF-1BEE-4567-818C-DAC9F85535A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E26F5EF-1BEE-4567-818C-DAC9F85535A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

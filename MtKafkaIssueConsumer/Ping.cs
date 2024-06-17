@@ -1,4 +1,4 @@
-namespace MasstransitKafkaTester;
+namespace MtKafkaIssueConsumer;
 
 public class Ping
 {
