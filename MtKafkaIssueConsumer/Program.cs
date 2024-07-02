@@ -23,6 +23,7 @@ services.AddMassTransit(x =>
                 c.AutoOffsetReset = AutoOffsetReset.Latest;
                 c.ConcurrentConsumerLimit = 20;
                 c.ConfigureConsumer<PingConsumer>(context);
+                c.CreateIfMissing();
             });
             
             k.Host(kafkaHost);

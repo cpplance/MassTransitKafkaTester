@@ -6,5 +6,5 @@ public class Ping
     public required int SeqId { get; set; }
     public DateTime CreatedAt { get; set; }
     
-    public int Key => CreatedAt.GetHashCode();
+    public int Key => Random.Shared.Next(int.MinValue, int.MaxValue);
 }
